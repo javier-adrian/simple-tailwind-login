@@ -791,14 +791,6 @@ select {
   display: flex;
 }
 
-.h-4 {
-  height: 1rem;
-}
-
-.w-4 {
-  width: 1rem;
-}
-
 .w-full {
   width: 100%;
 }
@@ -817,12 +809,6 @@ select {
 
 .basis-full {
   flex-basis: 100%;
-}
-
-.appearance-none {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
 }
 
 .flex-wrap {
@@ -896,6 +882,11 @@ select {
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .py-2 {
@@ -977,6 +968,26 @@ select {
   font-family: "Inter";
 
   src: url("Inter-VariableFont_slnt,wght.ttf");
+}
+
+.focus\:ring-0:focus {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.focus\:ring-inset:focus {
+  --tw-ring-inset: inset;
+}
+
+.focus\:ring-rose-950:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(76 5 25 / var(--tw-ring-opacity));
+}
+
+.focus\:ring-white:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(255 255 255 / var(--tw-ring-opacity));
 }
 
 @media (min-width: 640px) {
