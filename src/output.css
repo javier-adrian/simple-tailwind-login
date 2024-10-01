@@ -855,6 +855,10 @@ select {
   border-width: 2px;
 }
 
+.border-4 {
+  border-width: 4px;
+}
+
 .border-rose-950 {
   --tw-border-opacity: 1;
   border-color: rgb(76 5 25 / var(--tw-border-opacity));
